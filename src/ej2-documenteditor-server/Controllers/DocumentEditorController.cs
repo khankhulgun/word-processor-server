@@ -16,7 +16,7 @@ using Syncfusion.EJ2.SpellChecker;
 
 namespace EJ2DocumentEditorServer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("word/api/[controller]")]
     public class DocumentEditorController : Controller
     {
         private readonly IHostingEnvironment _hostingEnvironment;
@@ -119,7 +119,7 @@ namespace EJ2DocumentEditorServer.Controllers
         {
               public string content {get; set; }
         }
-		// GET api/values
+		// GET word/api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {

@@ -11,7 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/test",
+      "launchUrl": "word/api/test",
       "environmentVariables": {
         "SYNCFUSION_LICENSE_KEY": "<License_Key_Development>",
         "SPELLCHECK_Dictionary_Path": "",
@@ -21,7 +21,7 @@
     "EJ2APIServices": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/test",
+      "launchUrl": "word/api/test",
       "environmentVariables": {
         "SYNCFUSION_LICENSE_KEY": "<License_Key_Development>",
         "SPELLCHECK_Dictionary_Path": "",
@@ -32,7 +32,7 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/test",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/word/api/test",
       "environmentVariables": {
         "SYNCFUSION_LICENSE_KEY": "",
         "SPELLCHECK_DICTIONARY_PATH": "",

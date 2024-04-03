@@ -6,36 +6,36 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EJ2DocumentEditorServer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("word/api/[controller]")]
     public class TestController : Controller
     {
-        // GET api/values
+        // GET word/api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
+        // GET word/api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST api/values
+        // POST word/api/values
         [HttpPost]
         public void Post([FromBody]string value)
         {
         }
 
-        // PUT api/values/5
+        // PUT word/api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE api/values/5
+        // DELETE word/api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
