@@ -18,6 +18,8 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '20'
+    - name: Set up Docker Buildx
+      run : echo ${{ secrets.DOCKER_TOKEN }} | docker login ghcr.io -u munkh-altai --password-stdin    
     - name: Build the Docker image
       run: docker build . --file Dockerfile --target prod -t ghcr.io/khankhulgun/word-processor-server
     - name: Push the Docker image
